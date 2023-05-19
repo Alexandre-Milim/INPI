@@ -17,7 +17,7 @@ background: #000000;
 
 .dashboard {
 display: grid;
-grid-template-columns: (2, 1fr);
+grid-template-columns: repeat(2, 2fr);
 grid-gap: 20px;
 padding: 10px;
 }
@@ -31,7 +31,7 @@ border-radius: 5px;
 .map img,
 .area-geografica img {
 width: 100%;
-max-width: 400px;
+max-width: 600px;
 }
 
 .historia p,
@@ -41,6 +41,7 @@ margin-top: 0;
 }
 
 .parceiros ul {
+margin-top: -17px;
 list-style: none;
 padding: 0;
 }
@@ -48,8 +49,36 @@ padding: 0;
 .parceiros li {
 margin-bottom: 10px;
 }
-
+.colaboradores ul{
+    margin-left: -15px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+h2{
+    color: rgba(21, 237, 136, 0.721);
+}
 h3{
     margin-top: -13px;
     color: rgba(21, 237, 136, 0.721);
 }
+
+#reconhecimento{
+    margin-top: -87px;
+}
+
+#parceiros{
+    margin-top: -87px;
+}
+
+.bg{
+    border-radius: 32px;
+}
+
+.imgFooter{
+    margin-left: 37em;
+}
+
+#milim{
+    text-align: center;
+}
+
