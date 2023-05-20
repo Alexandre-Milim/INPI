@@ -54,6 +54,10 @@ margin-bottom: 10px;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
 }
+
+h1{
+    color: rgb(111, 46, 233);
+}
 h2{
     color: rgba(21, 237, 136, 0.721);
 }
@@ -78,14 +82,23 @@ h3{
     text-align: center;
 }
 #header{
+    display: flex;
+    justify-content: space-between;
+    margin: 13px;
+    border-radius: 13px;
+    background-color: rgb(19, 18, 18);
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#header > div > a {
+    margin-right: 30px; 
 }
 a{
-    font-size: 23px;
+    font-size: 19px;
     margin-top: 34px;
     text-decoration: none;
-    color: rgb(214, 224, 224);
+    color: rgba(52, 247, 156, 0.781);
 }
 
 #introducao ul{
