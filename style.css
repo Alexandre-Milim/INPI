@@ -71,7 +71,7 @@ h3{
 }
 
 #parceiros{
-    margin-top: -87px;
+    margin-top: -22em;
 }
 
 .bg{
@@ -82,23 +82,14 @@ h3{
     text-align: center;
 }
 #header{
-    display: flex;
-    justify-content: space-between;
-    margin: 13px;
-    border-radius: 13px;
-    background-color: rgb(19, 18, 18);
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-#header > div > a {
-    margin-right: 30px; 
+    grid-template-columns: repeat(4,1fr);
 }
 a{
     font-size: 19px;
     margin-top: 34px;
     text-decoration: none;
-    color: rgba(52, 247, 156, 0.781);
+    color: rgba(52, 247, 156, 0.863);
 }
 
 #introducao ul{
@@ -115,4 +106,12 @@ a{
     border-radius: 23px;
     padding: 12px;
     background-color: rgb(19, 18, 18);
+}
+
+li{
+    margin: 9px;
+    border-radius: 13px;
+    padding: 12px;
+    background-color: rgb(19, 18, 18);
+    list-style: none;
 }
