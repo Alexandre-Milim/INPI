@@ -77,4 +77,29 @@ h3{
 #milim{
     text-align: center;
 }
+#header{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+a{
+    font-size: 23px;
+    margin-top: 34px;
+    text-decoration: none;
+    color: rgb(214, 224, 224);
+}
 
+#introducao ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#comSelo{
+    display: grid;
+    grid-template-columns: repeat(2, 30em);
+}
+
+#corzinha{
+    border-radius: 23px;
+    padding: 12px;
+    background-color: rgb(19, 18, 18);
+}
