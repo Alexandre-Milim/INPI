@@ -113,9 +113,9 @@ a{
 }
 
 li{
-    margin: 9px;
+    margin: 8px;
     border-radius: 13px;
-    padding: 12px;
+    padding: 4px;
     background-color: rgb(19, 18, 18);
     list-style: none;
 }
