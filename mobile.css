@@ -13,4 +13,35 @@
     #introducao{
         margin-left: -43px;
     }
+    .li-intro{
+        margin: 8px;
+        border-radius: 13px;
+        padding: 4px;
+        background-color: rgb(19, 18, 18);
+        list-style: none;
+    }
+    #bg1, #bg2{
+        margin-left: -7.5px;
+        width: 300px;
+        height: 184px;
+    }
+    .dashboard{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #reconhecimento{
+        margin-top: 1px;
+    }
+    #duopara{
+        margin-top: -13px;
+        display: block;
+        font-size: 17px;
+        margin-left: -33px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr)
+    }
+    .dashboard-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

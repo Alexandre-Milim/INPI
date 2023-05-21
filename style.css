@@ -78,7 +78,7 @@ h3{
     margin-top: -22em;
 }
 
-.bg{
+#bg1, #bg2{
     border-radius: 32px;
 }
 
@@ -111,11 +111,17 @@ a{
     padding: 12px;
     background-color: rgb(19, 18, 18);
 }
-
-li{
-    margin: 8px;
+.li-intro{
+    margin: 9px;
     border-radius: 13px;
-    padding: 4px;
+    padding: 12px;
+    background-color: rgb(19, 18, 18);
+    list-style: none;
+}
+li{
+    margin: 9px;
+    border-radius: 13px;
+    padding: 12px;
     background-color: rgb(19, 18, 18);
     list-style: none;
 }
