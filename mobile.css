@@ -22,8 +22,8 @@
     }
     #bg1, #bg2{
         margin-left: -7.5px;
-        width: 300px;
-        height: 184px;
+        width: 30px;
+        height: 14px;
     }
     .dashboard{
         display: grid;
