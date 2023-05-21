@@ -37,7 +37,7 @@
         font-size: 17px;
         margin-left: -12px;
         display: grid;
-        grid-template-columns: repeat(2, 363px)
+        grid-template-columns: repeat(2, 3px)
     }
     .dashboard-section{
         display: grid;
