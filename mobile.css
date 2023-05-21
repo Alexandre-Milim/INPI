@@ -33,12 +33,11 @@
         margin-top: 1px;
     }
     #duopara{
-        margin-top: -13px;
         display: block;
         font-size: 17px;
-        margin-left: -33px;
+        margin-left: -12px;
         display: grid;
-        grid-template-columns: repeat(2, 1fr)
+        grid-template-columns: repeat(2, 447px)
     }
     .dashboard-section{
         display: grid;
