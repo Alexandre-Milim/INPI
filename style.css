@@ -18,6 +18,9 @@ color: rgb(0, 0, 0);
 html ::-webkit-scrollbar-track {
 background: #000000;
 }
+#h3DoBene{
+    margin-left: 53px;
+}
 
 .dashboard {
 display: grid;
@@ -77,7 +80,9 @@ h3{
 #parceiros{
     margin-top: -22em;
 }
-
+#megaSelo{
+    margin-left: 93px;
+}
 #bg1, #bg2{
     border-radius: 32px;
 }

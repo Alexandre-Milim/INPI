@@ -11,7 +11,7 @@
         margin-left: -73px;
     }
     #introducao{
-        margin-left: -43px;
+        margin-left: 0px;
     }
     .li-intro{
         margin: 8px;
@@ -22,7 +22,7 @@
     }
     #bg1, #bg2{
         margin-left: -13px;
-        width: 346px;
+        width: 307px;
         height: 184px;
     }
     .dashboard{
@@ -35,12 +35,35 @@
     #duopara{
         display: block;
         font-size: 17px;
-        margin-left: -12px;
+        margin-left: -2px;
         display: grid;
         grid-template-columns: repeat(2, 327px)
     }
     .dashboard-section{
+        display: block;
+    font-size: 18px;
+    margin-left: 0px;
+    display: grid;
+    grid-template-columns: repeat(1, 309px);
+    }
+    #h3DoBene{
+        margin-left: 0px;
+    }
+    ul{
+        margin-left: -47px;
+    }
+    
+    #parceiros{
+        margin-top: 0px;
+    }
+    #megaSelo{
+        margin-left: -51px;
+    }
+    #section1{
+        display: none;
+    }
+    .colaboradores ul {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
